@@ -1,0 +1,31 @@
+RewriteEngine On
+
+#Redirecciones
+Redirect /precios.html http://profacture.mx/#precios
+Redirect /contacto.html http://profacture.mx/#contacto
+Redirect /caracteristicas.html http://profacture.mx/#caracteristicas
+Redirect /registro.html http://profacture.mx/#registro
+
+#Hotlinking
+Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www.)?profacture.mx/ [nc]
+RewriteRule .*.(gif|jpg|png)$ http://profacture.mx/img/badLuck.png [nc]
+
+#Error Pages
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+
+#Navigate Deny
+Options All -Indexes
+
+#Files ext
+#RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]
+
+#Remove www
+RewriteCond %{HTTP_HOST} ^www\.profacture\.mx$ [NC]
+RewriteRule ^(.*)$ http://profacture.mx/$1 [L,R=301]
+
+#ServerMail
+ServerSignature EMail
+SetEnv SERVER_ADMIN support@profacture.mx

@@ -1,0 +1,18 @@
+/* TEAM */
+	Developer: Juan Francisco Herrera
+	Contact: fherrera [at] softin.mx
+	Twitter: @jok3rcit0
+	From: Santa Fe, Distrito Federal, México
+
+	UX/UI: Idalia ÁLvares
+	Twitter: @toshiriux
+
+	Graphic Design: Dulce Jimenez
+	Twiter: @djimenez05
+
+/* SITE */
+	Last update: 2014/09/30
+	Language: Español
+	Doctype: HTML5
+	Components: Modernizr, jQuery, Bootstrap, Stylus
+	IDE: Sublime Text, Light Table, Photoshop, Illustrator
