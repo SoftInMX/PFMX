@@ -1,4 +1,8 @@
 /* TEAM */
+	CTO: Juanita Herrera
+	Contact: juanita [at] softin.mx
+	From: Santa Fe, Distrito Federal, México
+
 	Developer: Juan Francisco Herrera
 	Contact: fherrera [at] softin.mx
 	Twitter: @jok3rcit0
@@ -6,9 +10,6 @@
 
 	UX/UI: Idalia ÁLvares
 	Twitter: @toshiriux
-
-	Graphic Design: Dulce Jimenez
-	Twiter: @djimenez05
 
 /* SITE */
 	Last update: 2014/09/30
